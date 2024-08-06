@@ -65,11 +65,11 @@ const Card = () => {
                 <h1 className='text-white text-3xl font-bold font-sans'>{data.description}</h1>
             </div>
 
-            <div className='flex items-center text-white gap-32 detail'>
+            <div className='flex items-end text-white gap-32 detail'>
 
-                <div className='flex items-center'>
+                <div className='flex items-center gap-2'>
                     <div>
-                        <WiHumidity className='text-5xl' />
+                        <WiHumidity className='text-6xl' />
                     </div>
                     <div className='flex flex-col items-start'>
                         <p className='text-lg'> {data.humidity}% </p>
@@ -78,7 +78,7 @@ const Card = () => {
 
                 </div>
 
-                <div className='flex items-center'>
+                <div className='flex items-center gap-3'>
                     <div>
                         <IoIosSpeedometer className='text-5xl' />
                     </div>
